@@ -12,7 +12,7 @@ export default function NavBarMenu() {
                     <Navbar.Collapse className="justify-content-end">
                         <Navbar.Text>
                             Signed in as:{' '}
-                            <a href="https://rafatarrega.com" target="_blank" rel='noreferrer'>Rafa Tarrega</a>
+                            <a href="https://rafatarrega.com" target="_blank" rel='noreferrer'>Ariel Freskiee</a>
                         </Navbar.Text>
                     </Navbar.Collapse>
                 </Container>

@@ -19,9 +19,9 @@ export default function SecondStep() {
   const hobbiesSer = JSON.stringify(selectOption);
   localStorage.setItem('hobbies', hobbiesSer);
 
-  const onChangeAdittionalHobbie = (e) => {
+  const onChangeAdditionalHobbie = (e) => {
     const sport = e.target.value;
-    localStorage.setItem('adittionalHobbie', sport);
+    localStorage.setItem('additionalHobbie', sport);
   };
 
   return (
@@ -42,7 +42,7 @@ export default function SecondStep() {
           </Col>
           <Col lg='7' className="mt-4">
             <h5>Do you want to add more?</h5>
-            <Form.Control type="text" placeholder="Karate" onChange={(e) => onChangeAdittionalHobbie(e)} />
+            <Form.Control type="text" placeholder="Karate" onChange={(e) => onChangeAdditionalHobbie(e)} />
           </Col>
         </Row>
       </Container>
